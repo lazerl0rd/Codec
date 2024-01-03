@@ -66,7 +66,7 @@ public class MainActivity extends Activity implements BluetoothProfile.ServiceLi
         BluetoothCodecConfig setConfig = new BluetoothCodecConfig.Builder()
             .setCodecType(BluetoothCodecConfig.SOURCE_CODEC_TYPE_LDAC)
             .setCodecPriority(BluetoothCodecConfig.CODEC_PRIORITY_HIGHEST)
-            .setSampleRate(BluetoothCodecConfig.SAMPLE_RATE_44100)
+            .setSampleRate(BluetoothCodecConfig.SAMPLE_RATE_48000)
             .setBitsPerSample(BluetoothCodecConfig.BITS_PER_SAMPLE_24)
             .setChannelMode(BluetoothCodecConfig.CHANNEL_MODE_STEREO)
             .setCodecSpecific1(1000) // 1000 = Quality, 1003 = Best Effort
